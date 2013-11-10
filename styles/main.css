@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: #333;
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial, "Lucida Grande", sans-serif;
+  line-height: 1.4;
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-weight: 500;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+h1 {
+  font-size: 1.9em;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+
+h3 {
+  font-size: 1.3em;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+/* Structure */
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+header {
+  overflow: auto;
+  padding: 50px 25px;
+  width: 100%;
+  background-color: #C02942;
+}
+
+#wrapper {
+  overflow: auto;
+  padding: 50px 0px;
+  width: 100%;
+}
+
+section.maincontent {
+  display: inline-block;
+  float: left;
+  padding: 0px 25px;
+  width: 75%;
+}
+
+section#products {
+  padding: 0px 25px;
+  width: 100%;
+}
+
+article.post {
+  margin-bottom: 50px;
+  padding-bottom: 25px;
+  border-bottom: 1px #ddd solid;
+}
+
+aside {
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+  padding: 25px;
+  width: 25%;
+  border-radius: 5px;
+  background-color: #f7f5fa;
+}
+
+footer {
+  padding: 25px;
+  width: 100%;
+  border-top: 1px #ddd solid;
+}
+
+/* Header */
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 3.5em;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+nav ul li a {
+  color: #C5E0DC;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar */
+
+aside ul a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Product Page */
+ul.products li {
+  display: inline-block;
+  margin-right: 25px;
+  margin-bottom: 40px;
+  width: 45%;
+}
+
+/* Contact */
+
+.formgroup {
+  margin: 15px 0px;
+}
+
+.formgroup label {
+  display: block;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.formgroup input[type="text"], textarea {
+  display: block;
+  padding: 10px 5px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  background-image: none;
+  font-size: 1em;
+  font-family: "Helvetica Neue",Helvetica,Arial, "Lucida Grande", sans-serif;
+}
+
+.formgroup .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial, "Lucida Grande", sans-serif;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+
